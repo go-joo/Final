@@ -11,10 +11,10 @@
    </style>
 </head>
 <body>
-   <h2>공지사항</h2>
+   <br/><h2>공지사항</h2><br/>
 <form name="frm" action="read">
    <input type="hidden" name="notice_number" value="${vo.notice_number}"/>
-      <table width="600">
+      <table width="800" style="margin:0 auto; ">
          <tr>
              <td colspan="4" style="border-top:2px solid;"></td>
          </tr>
@@ -42,7 +42,7 @@
                   <img id="notice_image" src="http://placehold.it/200x200" width=300 height=200 style="display:none;"/>
                </c:if>
                <c:if test="${vo.notice_image!=null}">
-                  <img id="notice_image" src="/displayFile?fullName=${vo.notice_image}" />
+                  <img id="notice_image" src="/displayFile?fullName=${vo.notice_image}" width=450 />
                </c:if>
             </td>
          </tr>

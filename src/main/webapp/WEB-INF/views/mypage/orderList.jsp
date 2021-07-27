@@ -41,13 +41,7 @@
          </h2>   
          <div class="search_date">
             <h3 class="screen_out">기간선택</h3>
-            <span id="total_Orders"></span>
-            <select class="layer_search">
-               <option value="all">전체기간</option>
-               <option value="2021">2021년</option>
-               <option value="2020">2020년</option>
-               <option value="2019">2019년</option>
-            </select>            
+            <span id="total_Orders"></span>       
          </div>
       </div>
          
